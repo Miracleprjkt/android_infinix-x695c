@@ -15,9 +15,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/infinix/X695C/X695C-vendor.mk)
-
 # A/B
 AB_OTA_UPDATER := true
 
